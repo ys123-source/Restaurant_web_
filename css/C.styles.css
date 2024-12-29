@@ -1,0 +1,223 @@
+h1 {
+    color: rgb(234, 101, 53);
+  }
+h2{
+    font-size: 55px;
+}
+
+.navbar-brand {
+    margin-left: 20px; /* 往右移 */
+    /* 或者使用 margin-right 根据需要调整 */
+}
+
+.div-taller {
+    height: 500px;
+  }
+
+.contactus-text {
+    font-size: clamp(48px, 10vw, 128px); 
+    text-shadow: 3px 3px 0px #3CA181; 
+    text-align: left; 
+}
+
+.text-content {
+    text-align: justify; /* 文字对齐 */
+}
+
+@media (max-width: 768px) { /* 针对小屏幕的样式 */
+    .text-content {
+        margin-bottom: 20px; /* 为上下堆叠时的文字部分添加间距 */
+    }
+}
+
+.ourstory-text {
+    font-size: clamp(32px, 5vw, 64px); 
+    color: #AE312B;
+    text-align: center; 
+    margin-bottom: 40px;
+    margin-top: 0%;
+}
+
+.story-text {
+    margin-bottom: 1em;
+    font-size: clamp(16px, 2.5vw, 32px); 
+    line-height: 1.8; 
+    margin-top: 20px;
+    color: #AE312B;
+}
+
+.eatthis-text {
+    font-size: clamp(48px, 10vw, 128px);
+    color: #AE312B;
+    text-shadow: 5px 5px 0px #3CA181; 
+    text-align: center;
+    line-height: 1;
+}
+
+.line {
+    height: 8px;
+    width: 100%;
+    background-color: #AE312B;
+    margin-top: 100px;
+}
+
+.ourstory-photo {
+    height: 400px;
+    width: 800px;
+    background-image: url(../asset/ourstory2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    overflow: hidden;
+    margin: 0; /* 水平居中 */
+    display: block;
+}
+
+@font-face {
+    font-family: 'Mermaid';
+    src: url('../assest/mermaid/Mermaid1001.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.eatthis-font {
+    font-family: 'Mermaid', sans-serif;
+}
+body {
+    background-color: #F4DFB2; /* 改为你的页面背景颜色 */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-control {
+    background-color: #ffffff; /* 确保输入框内依然是白色 */
+  }
+  
+  .container {
+    background-color: transparent; /* 确保容器背景为透明 */
+  }
+
+.contact-us-box {
+    text-align: center; 
+    padding: 20px;      
+    font-size: 8vw;   
+    font-weight: 500; 
+    color: #AE312B;     
+}
+
+body {
+    font-family: 'Mermaid', sans-serif;
+}
+
+.form-control {
+    font-size: 20px; 
+    border-radius: 10px; 
+    padding: 10px 20px;
+}
+
+textarea {
+    resize: none; 
+}
+
+.info-card {
+    background-color:#8B0000; /* Matches your current section color */
+    color: white;
+    padding: 20px; /* Adds space inside the card */
+    margin: 0 auto; /* Centers the content */
+    max-width: 100%; /* Ensures responsiveness */
+    display: flex;
+    flex-wrap: wrap; /* Adjusts layout for small screens */
+    justify-content: space-between;
+    width: auto
+    
+}
+  /* Individual sections inside the card */
+.info-card .details {
+    flex: 1 1 200px; /* Ensures sections are responsive */
+    margin: 10px;
+}
+
+.info-card h3 {
+    margin-bottom: 10px; /* Adds spacing between titles and content */
+}
+
+.info-card p {
+    margin: 0; /* Removes extra spacing below text */
+}
+.logo img {
+    width: 100px; /* 调整 logo 的大小 */
+    height: auto;
+    object-fit: contain;
+}
+
+  
+  
+
+.details {
+    display: flex;
+    flex-wrap: wrap; /* 自动换行 */
+    gap: 20px; /* 子元素之间的间距 */
+    flex: 1; /* 占据剩余空间 */
+}
+
+.details > div {
+    flex: 1 1 calc(50% - 20px); /* 每个内容块占 50% 宽度，减去间距 */
+    min-width: 200px; /* 最小宽度，避免过窄 */
+}
+
+
+/* Background Color */
+
+.bg-primary {
+    background-color: blue;
+}
+
+
+.bg-antiquewhite {
+    background-color: antiquewhite;
+}
+
+.bg-aliceblue {
+    background-color: aliceblue;
+}
+
+.bg-aqua {
+    background-color: aqua;
+}
+
+.bg-azure {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-yellow {
+    background-color: rgb(227, 218, 115);
+}
+
+.bg-burlywood {
+    background-color: #AE312B;
+}
+
+.bg-brown {
+    background-color: rgb(78, 47, 7);
+}
+
+.bg-purple {
+    background-color: rgb(157, 34, 171);
+}
+
+.bg-darkred {
+    background-color: rgb(101, 15, 15);
+}
+
+.bg-green {
+    background-color: #3CA181;
+}
+
+.bg-khaki {
+    background-color: rgb(196, 168, 84);
+}
+
+.bg-heeee {
+    background-color: #F4DFB2;
+}
+
